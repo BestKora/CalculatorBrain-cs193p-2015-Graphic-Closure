@@ -10,6 +10,8 @@
 	<string>CalculatorBrain</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>D2918E081572A1281CD77C0A4AAA9686E36F7B10</key>
+		<string>https://github.com/BestKora/CalculatorBrain-cs193p-2015-Graphic-Closure.git</string>
 		<key>DDA02F6C45E05211C14398F627BCE0289D8D64D7</key>
 		<string>https://github.com/BestKora/CalculatorBrain-cs193p-2015.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>CalculatorBrain.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>DDA02F6C45E05211C14398F627BCE0289D8D64D7</key>
+		<key>D2918E081572A1281CD77C0A4AAA9686E36F7B10</key>
 		<string>../..</string>
+		<key>DDA02F6C45E05211C14398F627BCE0289D8D64D7</key>
+		<string>../../../CalculatorBrain</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/BestKora/CalculatorBrain-cs193p-2015.git</string>
+	<string>https://github.com/BestKora/CalculatorBrain-cs193p-2015-Graphic-Closure.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>DDA02F6C45E05211C14398F627BCE0289D8D64D7</string>
+	<string>D2918E081572A1281CD77C0A4AAA9686E36F7B10</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>DDA02F6C45E05211C14398F627BCE0289D8D64D7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CalculatorBrain</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D2918E081572A1281CD77C0A4AAA9686E36F7B10</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CalculatorBrain-cs193p-2015-Graphic-Closure</string>
 		</dict>
 	</array>
 </dict>

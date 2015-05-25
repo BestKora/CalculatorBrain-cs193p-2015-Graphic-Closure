@@ -39,14 +39,14 @@ class GraphViewController: UIViewController{
     var program: PropertyList? { didSet {
         brain.setVariable("M", value: 0)
         brain.program = program!
-        
+        let descript = brain.description.componentsSeparatedByString(",").last ?? " "
+        title = "y = " + descript ?? " "
         updateUI()
         }
     }
     
     func updateUI() {
         graphView?.setNeedsDisplay()
-        title = brain.description != "?" ? brain.description : "График"
     }
  }
 
