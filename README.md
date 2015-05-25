@@ -10,4 +10,10 @@ Cтэнфордский курс "Разработка iOS 8 приложени�
 
 Иногда замыкания могут быть лучшей заменой делегированию.
 
+Отдельные варианты этого решения доступны через Releases и Tags
+
+[ClassGrapher](https://github.com/BestKora/CalculatorBrain-cs193p-2015-Graphic-Closure/tree/ClassGrapher)
+
+[yForX](https://github.com/BestKora/CalculatorBrain-cs193p-2015-Graphic-Closure/tree/yForX)
+
 Об этом можно прочесть в [Элегантный Графический калькулятор без делегирования. ] (http://bestkora.com/IosDeveloper/elegantnyj-graficheskij-kalkulyator-bez-delegirovaniya/#more-2177)
