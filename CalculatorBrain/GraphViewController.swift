@@ -8,10 +8,6 @@
 
 import UIKit
 
-class Grapher {
-     var yForX:  ((x:Double) -> Double?)? // очень обобщенный
-}
-
 class GraphViewController: UIViewController{
     
     @IBOutlet weak var graphView: GraphView! { didSet {
@@ -24,8 +20,7 @@ class GraphViewController: UIViewController{
         tap.numberOfTapsRequired = 2
         graphView.addGestureRecognizer(tap)
         
-        graphView.grapher.yForX = { [unowned self]
-            (x:Double) -> Double? in
+        graphView.yForX =  { [unowned self](x:Double)  in
             self.brain.setVariable("M", value: Double (x))
             return self.brain.evaluate()
         }

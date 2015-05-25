@@ -7,13 +7,15 @@ import UIKit
 
 @IBDesignable
 class GraphView: UIView {
+    
+    typealias yFunctionX = ( x: Double) -> Double?
+    var yForX: yFunctionX?
+    
     let axesDrawer = AxesDrawer(color: UIColor.blueColor())
     
     private var graphCenter: CGPoint {
         return convertPoint(center, fromView: superview)
     }
-    
-    let grapher:Grapher = Grapher()
     
     @IBInspectable
     var scale: CGFloat = 50.0 { didSet { setNeedsDisplay() } }
@@ -41,7 +43,7 @@ class GraphView: UIView {
         for var i = 0; i <= Int(bounds.size.width * contentScaleFactor); i++ {
             point.x = CGFloat(i) / contentScaleFactor
             
-            if let y = (grapher.yForX)?(x: Double ((point.x - origin.x) / scale)) {
+            if let y = (self.yForX)?(x: Double ((point.x - origin.x) / scale)) {
                 if !y.isNormal && !y.isZero {
                     firstValue = true
                     continue
